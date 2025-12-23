@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Customer Support</title>
+  <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+  <div class="container">
+    <header class="header">
+      <h1>Customer Support</h1>
+      <div class="sub">Describe your issue and we’ll guide you step-by-step.</div>
+    </header>
+
+    <main class="chat-card">
+      <div id="chat" class="chat"></div>
+
+      <div class="composer">
+        <input id="input" type="text" placeholder="Type your issue here..." autocomplete="off" />
+        <button id="sendBtn">Send</button>
+      </div>
+
+      <div class="meta">
+        <span>Session:</span> <span id="sessionId">local-demo</span>
+      </div>
+    </main>
+  </div>
+
+  <script src="./app.js"></script>
+</body>
+</html>
