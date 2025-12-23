@@ -49,6 +49,4 @@ inputEl.addEventListener("keydown", (e) => {
 });
 
 // Initial greeting
-addMessage("ai", "Hi! Tell me what issue you’re facing and I’ll guide you step-by-step.");
-
-
+addMessage("ai", "Hi! Tell me what issue you’re facing and I’ll guide you step-by-step. ");
