@@ -1,0 +1,151 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "last_updated": "2025-12-22",
+    "owner": "Support Team"
+  },
+  "issues": [
+    {
+      "issue_id": "GEN-0001",
+      "title": "Login fails due to cached session",
+      "product_area": "Login",
+      "symptoms_keywords": [
+        "login failed",
+        "invalid session",
+        "cannot sign in",
+        "stuck on login"
+      ],
+      "resolution_steps": [
+        "Clear browser cache and cookies",
+        "Open an incognito/private window",
+        "Try logging in again",
+        "If still failing, reset password"
+      ],
+      "validation_steps": [
+        "User can successfully log in",
+        "Dashboard loads without errors"
+      ],
+      "severity_default": "P3",
+      "escalation_team": "IT Support",
+      "owner": "Support Team",
+      "after_hours_safe": true,
+      "notes": "Ask user for screenshot if issue persists",
+      "last_updated": "2025-12-22",
+      "updated_by": "Admin"
+    },
+    {
+      "issue_id": "GEN-0002",
+      "title": "Website not loading or timing out",
+      "product_area": "Website",
+      "symptoms_keywords": [
+        "site down",
+        "page not loading",
+        "timeout",
+        "blank page"
+      ],
+      "resolution_steps": [
+        "Check internet access by opening another website",
+        "Try a different network or hotspot",
+        "Refresh the page",
+        "Restart browser"
+      ],
+      "validation_steps": [
+        "Website loads within 5 seconds",
+        "No timeout error appears"
+      ],
+      "severity_default": "P1",
+      "escalation_team": "Web Operations",
+      "owner": "Web Ops Team",
+      "after_hours_safe": true,
+      "notes": "Capture user location and ISP",
+      "last_updated": "2025-12-22",
+      "updated_by": "Admin"
+    },
+    {
+      "issue_id": "GEN-0003",
+      "title": "Payment failed during checkout",
+      "product_area": "Payments",
+      "symptoms_keywords": [
+        "payment failed",
+        "transaction declined",
+        "error processing payment"
+      ],
+      "resolution_steps": [
+        "Verify bank balance or card limit",
+        "Retry the payment once",
+        "Check payment history to avoid duplicate charge",
+        "If still failing, stop retrying"
+      ],
+      "validation_steps": [
+        "Payment shows success OR correct failure status",
+        "No duplicate transaction exists"
+      ],
+      "severity_default": "P2",
+      "escalation_team": "Payments Support",
+      "owner": "Payments Team",
+      "after_hours_safe": false,
+      "notes": "Ask for last 4 digits and timestamp",
+      "last_updated": "2025-12-22",
+      "updated_by": "Admin"
+    },
+    {
+      "issue_id": "GEN-0004",
+      "title": "Application frozen or not responding",
+      "product_area": "Application",
+      "symptoms_keywords": [
+        "app frozen",
+        "not responding",
+        "stuck",
+        "crash"
+      ],
+      "resolution_steps": [
+        "Force close the application",
+        "Reopen the application",
+        "Restart the device",
+        "Update the application to latest version"
+      ],
+      "validation_steps": [
+        "Application opens normally",
+        "Actions complete without freezing"
+      ],
+      "severity_default": "P2",
+      "escalation_team": "App Support",
+      "owner": "App Team",
+      "after_hours_safe": true,
+      "notes": "Record device model and OS version",
+      "last_updated": "2025-12-22",
+      "updated_by": "Admin"
+    },
+    {
+      "issue_id": "GEN-0005",
+      "title": "Access denied or permission error",
+      "product_area": "Access",
+      "symptoms_keywords": [
+        "access denied",
+        "permission error",
+        "not authorized",
+        "forbidden"
+      ],
+      "resolution_steps": [
+        "Confirm user account is active",
+        "Verify role or group assignment",
+        "Log out and log back in",
+        "Request access through access form"
+      ],
+      "validation_steps": [
+        "User can access the requested feature",
+        "No permission error appears"
+      ],
+      "severity_default": "P3",
+      "escalation_team": "IT Access",
+      "owner": "IT Team",
+      "after_hours_safe": false,
+      "notes": "Capture requested role name",
+      "last_updated": "2025-12-22",
+      "updated_by": "Admin"
+    }
+  ]
+}
+
+
+
